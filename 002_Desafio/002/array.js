@@ -31,8 +31,57 @@ num.splice(0, num.lengt)
 
 console.log(num)*/
 
-// JUNTANDO ARRAYS
+/*
+// JUNTANDO ARRAYS (CONCAT)
+
+let numbers = [5, 6, 7, 8]
+let letters = ['a', 'b', 'c']
+
+//let all = numbers.concat(letters) // contatenando todos intens dos arrays
+
+let all = numbers.concat(letters)
+let half = all.slice(3,5) //contatenando partes a partir do index)
 
 
 
+console.log(all)
+console.log(half) */
 
+/* // USANDO JOIN IN ARRAYS
+
+let clients = ['Kelly', 'Paulo', 'Maria']
+
+console.log(clients)
+
+let clientsJoin = clients.join('a') // adiciona qq coisas no final de cada elemento da array
+
+console.log(clientsJoin)*/
+
+/*
+//REVERTENDO A ARRAY
+
+let clients = ['Kelly', 'Paulo', 'Maria']
+//clients.sort() // ordena a lista por ordem alfabetica
+clients.reverse() // orderm inversa dado no array
+
+console.log(clients) */
+
+
+//VERIFICAR ELEMENTOS NA ARRAY metodo EVERY
+
+/*const tempLondon = [18, 13, 8, 2, -10] 
+
+const tempPositive = tempLondon.every(function(value){
+   return value >= 0
+})
+
+console.log(tempPositive)*/
+
+//VERIFICAR ELEMENTOS NA ARRAY metodo FILTER
+
+const tempLondon = [18, 13, 8, 2, -10] 
+
+const tempPositive = tempLondon.filter(value => value >= 0) // forma mais simples de fazer uma funçao
+
+
+console.log(tempPositive)
