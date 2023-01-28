@@ -11,8 +11,8 @@ function outcome(){
         total = num1 - num2
     else if(document.getElementById('box3').checked)
         total = num1 * num2
-    else (box4)
-        num1 / num2 
+    else (document.getElementById('box4').checked)
+        total = num1 / num2 
     document.getElementById('resultArea').innerHTML= 'Result ' + String(total) 
 
 }
