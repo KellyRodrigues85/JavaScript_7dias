@@ -1,32 +1,37 @@
 body {
-	background: #6eb37f;
+	background: #91e4a659;
 }
 .wrapper {
 	width: 400px;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 50%;	
 	transform: translate(-50%, -50%);
-	background: #262626;
+	background: #166457c4;
 	padding: 50px;
 	color: #fff;
 	text-align: center;
+	border-radius: 8px;
 }
 .wrapper h2 {
 	text-transform: uppercase;
 	font-family: poppins;
 	margin-bottom: 10%;
+
 }
 input[type="text"] {
 	height: 40px;
+	border-radius: 8px;
+	margin-top: 5px;
 
 }
 input[type="text"] {
 	font-size: 24px;
 }
 button {
-	background: #EE4477;
+	background: #0a344d;
 	border: none;
+	border-radius: 8px	;
 	color: #fff;
 	display: inline-block;
 	padding: 10px 25px;
