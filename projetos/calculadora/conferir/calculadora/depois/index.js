@@ -1,4 +1,5 @@
 
+
 function outcome() {
 
     let num1 = Number(document.getElementById('num-one').value)
